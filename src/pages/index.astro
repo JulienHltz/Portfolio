@@ -1,0 +1,186 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Portfolio - Julien Overholtzer">
+  <main>
+    <section id="home">
+      <!-- FANCY TEXT -->
+	  <div class="text-container">
+		  <p id="text-hello"><span>👋</span> Bonjour,</p>
+		  <p id="text">
+			  Je suis
+			  <span id="fancy">Julien</span>
+        <span id="fancy">Développeur Web</span>
+			</p>
+      
+      <span>
+      <i class="devicon-linkedin-plain colored"></i>
+      <i class="devicon-github-original"></i>
+      </span>
+             
+      <a href="#about"><button id="about-me"><i class="fa-solid fa-arrow-right"></i>A propos de moi</button></a>
+		</div>
+
+	  <!-- CUBE -->
+	  <div class="container-cube">
+		<div class="cube">
+		  <div class="face front">
+			<i class="devicon-symfony-original-wordmark colored"></i>
+		  </div>
+		  <div class="face back">
+			<i class="devicon-react-original-wordmark colored"></i>
+		  </div>
+		  <div class="face right">
+			<i class="devicon-sass-original colored"></i>
+		  </div>
+		  <div class="face left">
+			<i class="devicon-javascript-plain colored"></i>
+		  </div>
+		  <div class="face top">
+			<i class="devicon-php-plain colored"></i>
+		  </div>
+		  <div class="face bottom">
+			<i class="devicon-css3-plain colored"></i>
+		  </div>
+		</div>
+	  </div>
+    </section>
+
+    <section id="about">
+		<h2>A propos de moi</h2>
+		<div class="photo-container">
+			<img src="images/photo-profil.jpg" alt="photo à propos de moi">
+
+		</div>
+		<div class="resume-container">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga distinctio at repudiandae iste illum neque voluptates est iure doloribus in nulla necessitatibus aut ratione quod quae, dolorum exercitationem quisquam accusamus tempora consequuntur eos. Eius ut distinctio corrupti similique rem aliquid!</p>
+			
+
+			<div class="cv-container">
+				<p>N'hésitez pas à consulter mon CV !</p>
+				
+				<button class="cv-download"><i class="fa-solid fa-download"></i>Télécharger le PDF</button>
+			</div>
+		</div>
+      
+    </section>
+
+	<section id="skills">
+		<h2>Compétences</h2>
+
+		<div class="container-skills">
+			<div class="skill-element">
+				<i class="devicon-html5-plain-wordmark colored"></i>
+			  </div>
+			<div class="skill-element">
+				<i class="devicon-css3-plain-wordmark colored"></i>
+			  </div>
+			  <div class="skill-element">
+				  <i class="devicon-javascript-plain colored"></i>
+				</div>
+				<div class="skill-element">
+					<i class="devicon-sass-original colored"></i>
+				  </div>
+			<div class="skill-element">
+				<i class="devicon-php-plain colored"></i>
+			  </div>
+			<div class="skill-element">
+				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+			  </div>
+			<div class="skill-element">
+				<i class="devicon-symfony-original-wordmark" style="
+				color: white;
+			"></i>
+			  </div>
+			  <div class="skill-element">
+				<img src="images/twig.png" />
+			  </div>
+			<div class="skill-element">
+				<i class="devicon-react-original-wordmark colored"></i>
+			  </div>
+			  <div class="skill-element"><img src="images/astro.png" alt=""></div>
+			  <div class="skill-element">
+				<i class="devicon-jquery-plain-wordmark colored"></i>
+			  </div>
+			<div class="skill-element">
+				<i class="devicon-bootstrap-plain-wordmark colored"></i>
+			  </div>
+			<div class="skill-element">
+				<i class="devicon-tailwindcss-plain colored"></i>
+			  </div>
+			  <div class="skill-element">
+				<i class="devicon-docker-plain-wordmark colored"></i>
+			  </div>
+			  <div class="skill-element">
+				  <i class="devicon-git-plain-wordmark colored"></i>
+				</div>
+			<div class="skill-element">
+				<i class="devicon-github-original-wordmark" style="
+				color: white;
+			"></i>
+			  </div>
+			  <div class="skill-element">
+				<i class="devicon-vscode-plain-wordmark colored"></i>
+			  </div>
+			<div class="skill-element">
+				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+			  </div>
+			<div class="skill-element">
+				<i class="devicon-xd-plain colored"></i>
+			  </div>
+			<div class="skill-element">
+				<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-plain-wordmark.svg" />
+			  </div>
+		</div>
+
+
+	</section>
+	<section id="projects">
+		<h2>Projets</h2>
+		<div class="container-projects">
+
+			<div class="project-item">
+				<div class="project-div-img">
+					<img src="images/pokemon-game.png" alt="photo projet pokemon memory game">
+				</div>
+				<h4>Pokemon Memory Game</h4>
+				<p><span>Tech Stack : </span>PHP (Symfony), JavaScript, Twig, Sass, requêtes API, appels AJAX</p>
+			</div>
+			<div class="project-item">
+				<div class="project-div-img">
+					<img src="images/orgaapp.png" alt="photo projet orgaapp">
+				</div>
+				<h4>Orgaapp</h4>
+				<p><span>Tech Stack : </span>JavaScript (React), Sass, connexion jeton JWT</p>
+			</div>
+			<div class="project-item">
+				<div class="project-div-img">
+					<img src="" alt="">
+				</div>
+				<h4>Pokedex by Ju</h4>
+				<p><span>Tech Stack : </span>Stack : JavaScript (React), Sass, requêtes API</p>
+			</div>
+			<div class="project-item">
+				<div class="project-div-img">
+					<img src="" alt="">
+				</div>
+				<h4>PumpWorkout App</h4>
+				<p><span>Tech Stack : </span>PHP (Symfony), JavaScript, Twig, Sass</p>
+			</div>
+			<div class="project-item">
+				<div class="project-div-img">
+					<img src="" alt="">
+				</div>
+				<h4>Portfolio - Julien Overholtzer</h4>
+				<p><span>Tech Stack : </span>JavaScript (AstroJS), Sass</p>
+			</div>
+		</div>
+	</section>
+
+  </main>
+</Layout>
+
+<style lang="scss">
+  
+</style>

@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    // display: none;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background-color: $dark-purple2;
+    color: white;
+    border-top: solid grey 0.5px;
+}

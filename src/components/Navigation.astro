@@ -1,0 +1,49 @@
+---
+---
+<div class="burger-container">
+  <button class="burger"></button>
+  <div class="mode-logo-container">
+    <button class="mode">
+      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+    </button>
+    <div class="logo-jo">
+      <img src="images/2.png" alt="logo-jo">
+    </div>
+  </div>
+</div>
+<div class="menu">
+  <div class="logo-container">
+    <img src="images/2.png" alt="logo-jo">
+  </div>
+  <nav>
+      <a href="/#home" style="animation-delay: 0.2s">Accueil</a>
+      <a href="#about" style="animation-delay: 0.3s">A propos</a>
+      <a href="#skills" style="animation-delay: 0.4s">Compétences</a>
+      <a href="#education" style="animation-delay: 0.5s">Projets</a>
+      <a href="#legal" style="animation-delay: 0.6s">Expérience</a>
+  </nav>
+</div>
+
+<script>
+  let button = document.querySelector(".burger");
+  button.addEventListener("click", () =>
+  document.body.classList.toggle("open")
+  );
+
+// Récupération de tous les liens dans la liste du menu
+let links = document.querySelectorAll(".menu nav a");
+
+// Ajout d'un gestionnaire d'événement pour chaque lien
+links.forEach(link => {
+  link.addEventListener("click", () => {
+    // Fermeture du menu burger
+    document.body.classList.remove("open");
+  });
+});
+
+</script>
+
+<style lang="scss">
+
+  
+</style>

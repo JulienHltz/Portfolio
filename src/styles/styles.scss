@@ -1,0 +1,48 @@
+
+// Base imports
+@import
+"base/reset",
+"base/typography";
+
+// Utils imports
+@import
+"utils/mixins",
+"utils/variables";
+
+// Components imports
+@import
+"components/animations",
+"components/navbar",
+"components/footer";
+
+// Sections imports
+@import
+"sections/home",
+"sections/about",
+"sections/skills",
+"sections/projects";
+
+
+*{
+  font-family: sans-serif;
+//   box-sizing: border-box;
+  scroll-behavior: smooth;  
+}
+body{
+    font-family: $font-family-default;
+    background-color: $dark-purple;
+
+    h2{ 
+        font-family: 'Calibri', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 0.5rem;
+        color: wheat;
+        width: 70%;
+        margin: 1rem auto;
+        background: rgba(255, 255, 255, 0.23);
+        background: $dark-blue;
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+    }
+}
